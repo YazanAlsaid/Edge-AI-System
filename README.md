@@ -45,8 +45,8 @@ edge-ai/
 │   ├── inference/
 │   ├── evaluation/
 │   ├── configs/
-│   └── models/
-│       └── yolo11s_kitti_quant.hef
+│   
+│   
 │
 ├── frontend/
 │   ├── app.py
@@ -143,8 +143,14 @@ https://github.com/user-attachments/assets/09fbbb06-ca72-46c8-8bda-10f53628c474
 ```text
 Model: YOLO11s
 Dataset: KITTI (https://www.cvlibs.net/datasets/kitti/index.php)
-Format: Hailo Executable File (.hef) Quantized and compiled for Hailo-8L
-Model location: backend/models/yolo11s_kitti_quant.hef
+Format: Hailo Executable File (.hef)
+Details: Quantized and compiled for Hailo-8L accelerator
+
+Model hosting:
+- Hugging Face: https://huggingface.co/yazan-j/edge-ai-yolo11s-hailo
+
+Local model path (after download):
+- backend/models/yolo11s_kitti_quant.hef
 ```
 
 ## Dataset Conversion
