@@ -1,0 +1,6 @@
+# Videos & Daten
+data/*.mp4
+
+# Modelle
+backend/models/*.hef
+

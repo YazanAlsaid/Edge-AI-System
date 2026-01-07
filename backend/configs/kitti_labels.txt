@@ -1,0 +1,8 @@
+car
+van
+truck
+pedestrian
+person_sitting
+cyclist
+tram
+misc
