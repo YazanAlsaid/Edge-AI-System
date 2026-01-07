@@ -44,9 +44,7 @@ edge-ai/
 │   │   └── postprocess.py
 │   ├── inference/
 │   ├── evaluation/
-│   ├── configs/
-│   
-│   
+│   ├── configs/  
 │
 ├── frontend/
 │   ├── app.py
@@ -56,9 +54,6 @@ edge-ai/
 ├── converter/
 │   ├── kitti2yolo.py
 │   └── config.py
-│
-├── data/
-│   └── *.mp4
 │
 ├── Notebooks/
 │   ├── yolo11s_kitti_training.ipynb
